@@ -1,0 +1,22 @@
+# Environnement virtuel (À NE JAMAIS PUSH)
+venv/
+.venv/
+env/
+
+# Cache Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Données et modèles lourds de spaCy (optionnel mais conseillé)
+# Si vous téléchargez des modèles en local dans votre projet
+models/
+.spacy/
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+
+parisparl_lda.csv
